@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="UIMSG_100_APP_MISCONFIG" xml:space="preserve">
+    <value>Application settings are damaged or misconfigured</value>
+  </data>
+  <data name="UIMSG_101_GENERAL_ERROR" xml:space="preserve">
+    <value>
+General error has occured:
+{0},
+in module:
+{1}.
+
+Application stopped
+</value>
+  </data>
+  <data name="UIMSG_102_TASK_START" xml:space="preserve">
+    <value>Executing task ID #{0} (type {1})</value>
+  </data>
+  <data name="UIMSG_103_TASK_DISABLED" xml:space="preserve">
+    <value>Task is disabled. Skipping
+</value>
+  </data>
+  <data name="UIMSG_104_ARCHIVING" xml:space="preserve">
+    <value>Archiving files from {0}</value>
+  </data>
+  <data name="UIMSG_105_TASK_DONE_NOERROR" xml:space="preserve">
+    <value>Task has finished successfully
+</value>
+  </data>
+  <data name="UIMSG_106_LISTING_FILES" xml:space="preserve">
+    <value>Listing files from {0}</value>
+  </data>
+  <data name="UIMSG_107_LISTING_REGISTRY" xml:space="preserve">
+    <value>Listing registry from {0}</value>
+  </data>
+  <data name="UIMSG_108_BACKUP_FILE_WARNING" xml:space="preserve">
+    <value>Backup profile file warning:
+{0}</value>
+  </data>
+  <data name="UIMSG_109_BACKUP_FILE_ERROR" xml:space="preserve">
+    <value>Critical backup profile file error:
+{0}</value>
+  </data>
+  <data name="UIMSG_110_CONFIG_FILE_WARNING" xml:space="preserve">
+    <value>Configuration file warning:
+{0}</value>
+  </data>
+  <data name="UIMSG_111_CONFIG_FILE_ERROR" xml:space="preserve">
+    <value>Critical configuration file error:
+{0}</value>
+  </data>
+  <data name="UIMSG_112_EXCEPTION_FILE_PATH_INVALID" xml:space="preserve">
+    <value>Path doesn't exist - {0}</value>
+  </data>
+  <data name="UIMSG_113_FILE_SKIPPED_EXPORT" xml:space="preserve">
+    <value>WARNING (skipped) - {0}</value>
+  </data>
+  <data name="UIMSG_114_REG_PATH_INVALID" xml:space="preserve">
+    <value>Invalid registry path - {0}</value>
+  </data>
+  <data name="UIMSG_115_REG_HIVE_INVALID" xml:space="preserve">
+    <value>Invalid registry hive - {0}</value>
+  </data>
+  <data name="UIMSG_116_WINRAR_EXCAPTION" xml:space="preserve">
+    <value>WinRAR has returned an error w/code {0}</value>
+  </data>
+  <data name="UIMSG_117_WINRAR_NOT_INSTALLED_REGISTRY" xml:space="preserve">
+    <value>Can't read registry value or open the key {0}, WinRAR is not installed</value>
+  </data>
+  <data name="UIMSG_118_CMD_NO_COMMAND" xml:space="preserve">
+    <value>No valid command specified</value>
+  </data>
+  <data name="UIMSG_119_CMD_NO_VALUE" xml:space="preserve">
+    <value>No value was provided for the switch {0}</value>
+  </data>
+  <data name="UIMSG_120_CMD_INVALID_SW" xml:space="preserve">
+    <value>Invalid switch - {0}</value>
+  </data>
+  <data name="UIMSG_121_CMD_INVALID_PARAM" xml:space="preserve">
+    <value>Invalid parameter - {0}</value>
+  </data>
+  <data name="UIMSG_123_CMD_LOGO" xml:space="preserve">
+    <value>{0} {1}.{2} .NET
+Copyright {3}. All rights reserved
+This program is free for personal, educational and/or non-profit usage
+</value>
+  </data>
+  <data name="UIMSG_124_HELP_TEXT" xml:space="preserve">
+    <value>Versatile command-line backup program, configurable with .xml backup profiles, automating
+and simplifying the backup process
+
+Usage: sBackup &lt;command&gt; /&lt;switch 1&gt; /&lt;switch N&gt; &lt;switch parameter&gt;
+
+&lt;Commands&gt;
+  b             Perform the backup task
+
+&lt;Switches&gt;
+  /NoLogo       Don't print copyright logo
+  /SavePath     Sets the path to save output files. Current directory, if not set
+  /ProfileName  Profile name to load. "default" if not set
+
+Usage examples:
+  sBackup b /SavePath E:\
+    Read profile named "default" from the default.xml file and perform the backup operation,
+    saving output files to the root directory of the E: drive
+</value>
+  </data>
+  <data name="UIMSG_125_START_OM_BACKUP" xml:space="preserve">
+    <value>Starting backup...
+</value>
+  </data>
+  <data name="UIMSG_126_WORK_DONE_NOERROR" xml:space="preserve">
+    <value>All work is done</value>
+  </data>
+  <data name="UIMSG_128_WINRAR_NOT_INSTALLED_EXE" xml:space="preserve">
+    <value>Can't locate WinRAR in folder {0}, WinRAR is not installed</value>
+  </data>
+</root>
